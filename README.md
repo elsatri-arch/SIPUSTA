@@ -15,7 +15,7 @@ Proyek ini menerapkan prinsip enkapsulasi, pewarisan, polimorfisme, dan antarmuk
 
 o> Fitur Utama
 
-1. Hirarki Kelas & Polimorfisme: Menggunakan kelas abstrak dengan metode *abstract* aturan kelayakan pinjam serta method laporan ringkas yang diperluas memakai `super`. Pencetakan status katalog diproses secara polimorfik **tanpa menggunakan operator `instanceof`**.
+1. Hirarki Kelas & Polimorfisme: Menggunakan kelas abstrak dengan metode *abstract* aturan kelayakan pinjam serta method laporan ringkas yang diperluas memakai `super`. Pencetakan status katalog diproses secara polimorfik tanpa menggunakan operator `instanceof`.
 2. Interface Pengarsipan: Menerapkan interface `Terarsip` beserta *default method* khusus pada kelas koleksi fisik tertentu.
 3. Sistem Pengurutan Kustom: Menggunakan `Comparator` (`UrutStatusLaluJudul`) untuk memprioritaskan koleksi yang layak pinjam di urutan teratas, kemudian diurutkan berdasarkan judul secara alfabetis.
 4. Penanganan Eksepsi (Custom Exception): Melemparkan eksepsi khusus ramah pengguna awam apabila terjadi kesalahan saat proses peminjaman (misalnya koleksi sedang dipinjam atau tidak memenuhi syarat kelayakan).
